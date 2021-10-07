@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://js.processout.com/processout.js"></script>
+</head>
+<body>
+    <div>
+        <form action="" method="POST" id="card-form">
+            <div>
+                <input type="text" placeholder="John Smith" id="cardholdername">
+                <input type="text" placeholder="10018" id="cardholderzip">
+            </div>
+
+            <div class="block-group">
+                <div data-processout-input="cc-number" data-processout-placeholder="4242 4242 4242 4242"></div>
+                <div data-processout-input="cc-exp" data-processout-placeholder="MM / YY"></div>
+                <div data-processout-input="cc-cvc" data-processout-placeholder="CVC"></div>
+            </div>
+
+            <div>
+                <input type="submit" id="paymentBtn">
+            </div>
+            
+            <div id="errors"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

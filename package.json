@@ -1,0 +1,14 @@
+{
+  "name": "po_history_bug",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "script.js",
+  "scripts": {
+    "start": "node_modules/.bin/live-server --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
