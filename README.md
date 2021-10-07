@@ -1,5 +1,7 @@
 # Browser history issue
 
+JS code is copied from https://docs.processout.com/payments/processoutjs-reference/
+
 ## Install & start
 
     npm install
